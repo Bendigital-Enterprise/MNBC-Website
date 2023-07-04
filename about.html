@@ -1,0 +1,150 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="ministries.html">MINISTRIES</a></li>
+                    <li><a href="calendar.html">OUR CALENDAR</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>About Us</h1>
+    </section>
+    
+<!--------About Us----------->
+    
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h5>Meanwood Ndeke Baptist Church is a transformational church that is committed to maturing (perfecting) believers to the measure of the fullness of Christ. We are a Baptist Church that holds on to the Reformed Faith as summarized in the 1689 Baptist Confession of Faith. We endeavor therefore to welcome non-believers, evangelize to them, assimilate them as new believers into our church membership, nurture them to maturity, meet their needs, and equip them to be ministers in the Church. </h5>
+            <h1>Our Philosophy</h1> 
+            <h2>Mission Statement</h2>
+            <p>To glorify God by being a Transformational Church that in love evangelizes non-believers and assimilates them as new believers into church membership for their nurturing into spiritual maturity and training them to be ministers of Christ in the Church.</p>    
+            <h2>Vision</h2>
+            <p>A teaching, equipping and reforming Church.</p>
+            <h2>Motto</h2>
+            <p>"Building a Community for God"</p>
+            <h2>Core Values</h2>
+                <ul>
+                    <li>A high view of God</li>
+                    <li>Lordship of Christ Jesus</li>
+                    <li>Essentiality of faith and grace in salvation</li>
+                    <li>Ministry to Believers</li>
+                    <li>Ministry to Non-believers</li>
+                    <li>Absolute Authority of Scripture</li>
+                    <li>Sound Doctrine</li>
+                    <li>Personal Holiness</li>
+                    <li>Spiritual (or Biblical) Authority</li>
+                    <li>Biblical Fellowship</li>
+                    <li>Biblical Stewardship</li>
+                </ul>
+                <br>
+            <a href="contact.html" class="hero-btn red-btn">Contact Us Now</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg">
+        </div>
+    </div>    
+</section>
+
+<!--------Our Leaders------->
+
+    <section class="leaders">
+        <h1>Our Leaders</h1>
+        <div class="row">
+            <div class="leaders-col">
+                <img src="images/kkatemba.JPG">
+                <div> 
+                    <h3>Elder Kangwa Katemba</h3>
+                    <p></p>
+                    
+                </div>
+            </div>
+            <div class="leaders-col">
+                <img src="images/fmalambo.JPG">
+                <div> 
+                    <h3>Elder Friday Malambo</h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="leaders-col">
+                <img src="images/wtembo.JPG">
+                <div> 
+                    <h3>Elder Wilson Tembo</h3>
+                    <p></p>
+                    
+                </div>
+            </div>
+            <div class="leaders-col">
+                <img src="images/csakalunda.JPG">
+                <div> 
+                    <h3>Pastor Collins Sakalunda</h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="leaders-col">
+                <img src="images/bchipeta.JPG">
+                <div> 
+                    <h3>Deacon Boyd Chipeta</h3>
+                    <p></p>
+                    
+                </div>
+            </div>
+            <div class="leaders-col">
+                <img src="images/gyenga.JPG">
+                <div> 
+                    <h3>Deacon Gerald Yenga</h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <hr>
+    
+<!-------- footer ---------->
+    
+    <section class="footer">
+            <h4>About Us</h4>
+            <p>Meanwood Ndeke Baptist Church is a transformational church that is committed to maturing (perfecting) believers to the measure of the fullness of Christ.</p>
+            <div class="icons">
+                <a href="https://web.facebook.com/profile.php?id=100067890441460"><i class="fa fa-facebook"></i></a>
+                <a href="https://youtube.com/@meanwoodndekebaptistchurch"><i class="fa fa-youtube"></i></a>
+            </div>
+            <a href="#" class="footer-link"><p>made with <i class="fa fa-heart-o"></i> by Bendigital<br>Copyright © 2023. Meanwood Ndeke Baptist Church. All rights reserved.</p></a>
+    </section>    
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
